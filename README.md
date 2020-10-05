@@ -21,7 +21,7 @@ cd ..
 chmod +x process_pc.sh
 ```
 ## Dataset Preparation
-Place all the point clouds of the trees in a single folder, in .ply format. The code assumes that the y co-ordinates of the point cluds represent the height of the trees. By default, the software starts extracting the maps from y=0 upto y=1.1 (measured in metres). But the values can be modified in src/pc_tree.cpp, lines 405 and 406 (d_min and d_max).
+Place all the point clouds of the trees in a single folder in .ply format. The code assumes that the y co-ordinates of the point cluds represent the height of the trees. By default the software starts extracting the maps from y=0 upto y=1.1 (measured in metres). The values can be modified in src/pc_tree.cpp, lines 405 and 406 (d_min and d_max).
 
 ## Extracting the maps
 Run the script process.pc.sh to extract the surface and color maps from all the point clouds. The script takes the path to the folder containing the point clouds as an argument. 
