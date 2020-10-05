@@ -2,7 +2,7 @@
 This is a software to extract the surface and color maps of tree barks from their 3D point cloud.
 
 ## Dependencies List
-OpenCV- Tested on version 3.4.4
+OpenCV- Tested on version 3.4.4 and
 PCL -Tested on version 1.3
 
 ## Installation
