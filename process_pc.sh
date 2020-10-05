@@ -1,5 +1,5 @@
 ply_path=$1
-tree_code_path=$2
+tree_code_path=.
 
 surface_dir="dataset/"surface
 color_dir="dataset/"color
